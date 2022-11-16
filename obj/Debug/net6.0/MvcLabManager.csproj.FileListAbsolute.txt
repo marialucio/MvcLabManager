@@ -1,0 +1,8 @@
+C:\Users\arthu\Desktop\MvcLabManager\obj\Debug\net6.0\MvcLabManager.csproj.AssemblyReference.cache
+C:\Users\arthu\Desktop\MvcLabManager\obj\Debug\net6.0\MvcLabManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arthu\Desktop\MvcLabManager\obj\Debug\net6.0\MvcLabManager.AssemblyInfoInputs.cache
+C:\Users\arthu\Desktop\MvcLabManager\obj\Debug\net6.0\MvcLabManager.AssemblyInfo.cs
+C:\Users\arthu\Desktop\MvcLabManager\obj\Debug\net6.0\MvcLabManager.csproj.CoreCompileInputs.cache
+C:\Users\arthu\Desktop\MvcLabManager\obj\Debug\net6.0\MvcLabManager.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\arthu\Desktop\MvcLabManager\obj\Debug\net6.0\MvcLabManager.RazorAssemblyInfo.cache
+C:\Users\arthu\Desktop\MvcLabManager\obj\Debug\net6.0\MvcLabManager.RazorAssemblyInfo.cs
