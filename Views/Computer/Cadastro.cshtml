@@ -1,21 +1,27 @@
 @{
-    ViewData["Title"] = "Cadastrar";
+    ViewData["Title"] = "Cadastrar do Computador";
 }
 
-<h1><center>@ViewData["Title"]</center></h1>
+<h1>@ViewData["Title"]</h1><br>
 
-<form>
+<form action="/Computer/Cadastrando" method="post">
     <center>
-        <p>
-            <label for="ram">RAM</label><br>
-            <input type="text" id="ram" name="ram">
-        </p>
-
-        <p>
-            <label for="processor">PROCESSOR</label><br>
-            <input type="text" id="processor" name="processor">
-        </p> 
-
-        <input type="submit" class="btn btn-outline-success" value="Cadastrar">
+        <table>
+            <tr>
+                <td><label for="id">Id:</label></td>
+                <td><input type="number" name="id" id="id" required></td>
+            </tr>
+            <tr>
+                <td><label for="ram">RAM:</label></td>
+                <td><input type="text" name="ram" id="ram" required></td>
+            </tr>
+            <tr>
+                <td><label for="processor">Processador:</label></td>
+                <td><input type="text" name="processor" id="processor" required></td>
+            </tr>
+        </table><br>
     </center>
+    <input type="submit" class="btn btn-primary btn-sm btn-success" value="Cadastrar">
 </form>
+
+<a href="/Computer/Index" class="btn btn-primary btn-sm btn-light">Voltar</a><br><br>
