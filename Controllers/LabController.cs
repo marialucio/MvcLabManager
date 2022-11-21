@@ -55,7 +55,7 @@ public class LabController : Controller
         }
     }
 
-    public IActionResult Atualizacao(int id)
+    public IActionResult Atualizar(int id)
     {
         Lab lab = _context.Labs.Find(id);
 
