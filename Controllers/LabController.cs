@@ -40,7 +40,7 @@ public class LabController : Controller
         return View();
     }
 
-    public IActionResult ValidacaoCadastro([FromForm] int id, [FromForm] int num, [FromForm] string name, [FromForm] string block)
+    public IActionResult ValidarCadastro([FromForm] int id, [FromForm] int num, [FromForm] string name, [FromForm] string block)
     {
         if(_context.Labs.Find(id) != null)
         {
